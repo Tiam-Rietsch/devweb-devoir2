@@ -12,7 +12,7 @@ h1, h2, p {
 
 header {
 
-    background-color: #ffffff;
+    background-color: #ff0000;
     height: 20vh;
     
     /* ative la propriete flex-box du contenaire */
@@ -45,8 +45,25 @@ header > p > span {
 /*=============== MAIN =============*/
 
 main {
-    position: relative;
+    position: absolute;
     top: 20vh;
     left: 0;
     height: fit-content;
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: blue;
+}
+
+main > #left-section {
+    width: 65%;
+    height: fit-content;
+    background-color: yellow;
+}
+
+main > #left-section > .image-card {
+    height: 65vh;
 }
