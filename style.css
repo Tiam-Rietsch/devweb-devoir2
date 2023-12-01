@@ -32,7 +32,7 @@ header {
 }
 
 header > p > span {
-    padding: 0.7em;
+    padding: 0.2em;
     background-color: black;
     color: white;
     margin-left: 0.5em;
