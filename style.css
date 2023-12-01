@@ -41,3 +41,12 @@ header > p > span {
     color: white;
     margin-left: 0.5em;
 }
+
+/*=============== MAIN =============*/
+
+main {
+    position: relative;
+    top: 20vh;
+    left: 0;
+    height: fit-content;
+}
