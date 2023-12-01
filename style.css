@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, p {
+    width: fit-content;
+}
+
+header {
+    background-color: #e8e8e8;
+    height: 10vh;
+}
+
+header {
+    
+    /* ative la propriete flex-box du contenaire */
+    display: flex; 
+
+    /* 
+        precise que l'axe principale est verticale 
+        j'ai choisi la vertical par ce que c'est comme ca que les elements sont
+        alligne dans le header (verticallement)
+    */
+    flex-direction: column; 
+
+    /* centre les element sur l'axe principale */
+    justify-content: center; 
+
+    /* centre les element sur l'axe secondaire (horizontale) */
+    align-items: center; 
+}
