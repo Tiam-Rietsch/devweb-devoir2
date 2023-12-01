@@ -3,6 +3,7 @@
     border: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1, h2, p {
@@ -11,8 +12,8 @@ h1, h2, p {
 
 header {
 
-    background-color: #e8e8e8;
-    height: 10vh;
+    background-color: #ffffff;
+    height: 20vh;
     
     /* ative la propriete flex-box du contenaire */
     display: flex; 
@@ -29,10 +30,13 @@ header {
 
     /* centre les element sur l'axe secondaire (horizontale) */
     align-items: center; 
+
+    /* ajoute un espace entre les elements du contenaire */
+    gap: 0.5em;
 }
 
 header > p > span {
-    padding: 0.2em;
+    padding: 0.2em 0.5em;
     background-color: black;
     color: white;
     margin-left: 0.5em;
