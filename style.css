@@ -10,11 +10,9 @@ h1, h2, p {
 }
 
 header {
+
     background-color: #e8e8e8;
     height: 10vh;
-}
-
-header {
     
     /* ative la propriete flex-box du contenaire */
     display: flex; 
