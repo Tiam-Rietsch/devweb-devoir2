@@ -30,3 +30,10 @@ header {
     /* centre les element sur l'axe secondaire (horizontale) */
     align-items: center; 
 }
+
+header > p > span {
+    padding: 0.7em;
+    background-color: black;
+    color: white;
+    margin-left: 0.5em;
+}
